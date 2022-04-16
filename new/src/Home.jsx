@@ -6,34 +6,33 @@ const Home = () => {
     <>
       <div className="main-div">
         {" "}
-          <div id="divpedar" className="divpedar">
-            <ul className="ulpedar">
-              <li className="lipedar">
-                <Link className="a" to={"/1"}>
-                  <i class="fa fa-instagram icon9" aria-hidden="true"></i>
-                </Link>
-              </li>
-              <li className="lipedar">
-                <Link className="a" to={"/2"}>
-                  <i className="fa fa-envelope icon9" aria-hidden="true"></i>
-                </Link>
-              </li>
-              <li className="lipedar">
-                <Link className="a" to={"/3"}>
-                  {" "}
-                  <i className="fa fa-phone icon9" aria-hidden="true"></i>
-                </Link>
-              </li>
-              <li className="lipedar">
-                <Link className="a" to={"/4"}>
-                  {" "}
-                  <i className="fa fa-archive icon9" aria-hidden="true"></i>
-                </Link>
-              </li>
-              <div id="dir" className="dire"></div>
-            </ul>
-          </div>
-        
+        <div id="divpedar" className="divpedar">
+          <ul className="ulpedar">
+            <li className="lipedar">
+              <Link className="a" to={"/1"}>
+                <i class="fa fa-instagram icon9" aria-hidden="true"></i>
+              </Link>
+            </li>
+            <li className="lipedar">
+              <Link className="a" to={"/2"}>
+                <i className="fa fa-envelope icon9" aria-hidden="true"></i>
+              </Link>
+            </li>
+            <li className="lipedar">
+              <Link className="a" to={"/3"}>
+                {" "}
+                <i className="fa fa-phone icon9" aria-hidden="true"></i>
+              </Link>
+            </li>
+            <li className="lipedar">
+              <Link className="a" to={"/4"}>
+                {" "}
+                <i class="fa fa-telegram icon9" aria-hidden="true"></i>
+              </Link>
+            </li>
+            <div id="dir" className="dire"></div>
+          </ul>
+        </div>
         <header className="main-header">
           <div className="pesare-header flex">
             <div className="div-menu flex">
@@ -129,12 +128,11 @@ const Home = () => {
             </div>
             <div className="vorod">
               <span>
-                <i className="fa fa-search" aria-hidden="true"></i>
-              </span>
-              <span>
                 <i className="fa fa-shopping-cart" aria-hidden="true"></i>
               </span>
-              <span> ورود / ثبت نام</span>
+              <span>
+                <Link to={"/Main"}> ورود / ثبت نام</Link>
+              </span>
             </div>
           </div>
           <div class="mohtava-header flex">

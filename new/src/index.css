@@ -1,7 +1,9 @@
 .flex {
     display: flex;
   }
-  
+  button{
+    font-family: IRANSans;
+  }
   ul {
     list-style: none;
     margin: 0px;
@@ -36,21 +38,22 @@
   display: flex;
 }
 .divpedar {
+  
   padding: 5px;
   direction: ltr;
   transition: all 0.5s linear;
   width: 100%;
   height: 50px;
   margin: 10px auto;
-  background-color: #5E2240;
   border-radius: 20px;
+  box-shadow: 0px 0px 5px rgb(126, 120, 120);
 }
 .divpedar .dire {
   display: block;
   transition: all 0.3s linear;
   z-index: 1;
-  background-color: black;
-  box-shadow: 0px 0px 10px white;
+  background-color: #02198B;
+  box-shadow: 0px 0px 5px #00AAE5;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -83,22 +86,12 @@
     border-radius: 20px 20px 0px 0px ;
     background-color: black;
     background-size: cover;
-    background-image: url("./6cuM5V.webp");
+    background-image: url(./black-background-mak-creates-web-design-services-1500-2500.jpg);
     height: 700px;
   }
   .ul-shabake-ejtemaee {
     align-items: center;
     height: 100%;
-  }
-  .ul-shabake-ejtemaee i {
-    margin-right: 5px;
-    color: #be14f1;
-  }
-  .ul-shabake-ejtemaee a:hover {
-    color: #7b082f;
-  }
-  .ul-shabake-ejtemaee a {
-    margin-left: 20px;
   }
   .pesare-header {
     align-items: center;
@@ -117,11 +110,8 @@
     color: white;
     justify-content: space-between;
   }
-  .ul-main li {
-    padding: 5px;
-  }
   .link-1:hover{
-    color: #be14f1 ;;
+    border-top: 3px solid #02198B;
   }
   .submenu-1 {
     display: none;
@@ -140,12 +130,14 @@
     cursor: pointer;
   }
   .ul-1 {
-    box-shadow: 0px 0px 5px white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #02198B;
     height: 300px;
     width: 200px;
-    background-color: #a738da;
+    background-color: #02198B;
     position: absolute;
-    top: 35px;
+    top: 40px;
   }
   .ul-main > li {
     margin-right: 5px;
@@ -161,15 +153,15 @@
     margin-left: 10px;
     border-radius: 5px;
   }
-  .vorod span:nth-child(odd) {
-    background-color: #93399d;
-  }
   .vorod span:nth-child(2) {
+    background-color: #02198B;
+  }
+  .vorod span:nth-child(1) {
     background-color: white;
     color: black;
   }
-  .vorod span:nth-child(2):hover {
-    background-color: #a738da;
+  .vorod span:nth-child(1):hover {
+    background-color: #02198B;
     color: white;
   }
   .mohtava-header {
@@ -186,8 +178,9 @@
     background-color: white;
   }
   .input-1::placeholder {
+    font-family: iransans;
     color: #575458;
-    font-size: 17px;
+    font-size: 13px;
     padding: 10px;
   }
   .div-input-1 input {
@@ -198,7 +191,7 @@
     border: none;
   }
   .input-i {
-    background-color: #93399d;
+    background-color: #02198B;
     padding: 15px;
     margin-left: 5px;
     border-radius: 10px;
@@ -220,7 +213,7 @@
   }
   .ul-icon-amozesh i {
     font-size: 50px;
-    color: #a738da;
+    color: #000f5c;
   }
   .body {
     width: 90%;
@@ -237,7 +230,7 @@
   .dokme-doreha {
     text-align: center;
     color: white !important;
-    background-color: #93399d;
+    background-color: #02198B;
     border-radius: 15px;
     padding: 8px 10px;
   }
@@ -278,13 +271,13 @@
     content: ' 60% تخفیف ';
     width: 55px;
     height: 55px;
-    background-color: #be14f1;
+    background-color: #02198B;
     color: white;
     border-radius: 15px;
     text-align: center;
   }
   .li2-amozesh:hover .a-bishtar-bekhanid{
-    background-color:#93399d;
+    background-color:#02198B;
     color: white !important;
   }
   .li2-amozesh {
@@ -302,11 +295,11 @@
   }
   .li-amozesh:hover {
     transform: translateY(-10px);
-    box-shadow: 0px 5px 10px #93399d;
+    box-shadow: 0px 5px 10px #02198B;
   }
   .li2-amozesh:hover {
     transform: translateY(-10px);
-    box-shadow: 0px 2px 10px #93399d;
+    box-shadow: 0px 2px 10px #02198B;
   }
   .li-amozesh > h4 {
     padding: 15px 10px;
@@ -370,7 +363,7 @@
     border-radius: 10px;
   }
   .div-img-amozesh i:hover {
-    background-color: #70057c;
+    background-color: #02198B;
   }
   .ul-takhfif>li {
     width: 100% !important;
@@ -413,7 +406,7 @@
     content: '';
     width: 300px;
     height: 300px;
-    background-color: #bc30c9;
+    background-color: #02198B;
     border-radius: 30px;
   
   }
@@ -426,7 +419,7 @@
     content: '';
     width: 250px;
     height: 250px;
-    background-color:#d865c9d0 ;
+    background-color:#6c757d ;
     border-radius: 30px;
   }
   .li-takhfif-img {
@@ -463,7 +456,7 @@
     margin-top: 5px;
     width: 130px;
     border-radius: 5px;
-    background-color: #be14f1;
+    background-color: #02198B;
     color: white !important;
   }
   .ul-takhfif2{
@@ -474,8 +467,8 @@
   justify-content: space-around;
   }
   .img2{
-    box-shadow: 0px 0px 10px #bc30c9;
-    border: 2px solid #bc30c9;
+    box-shadow: 0px 0px 10px #02198B;
+    border: 2px solid #02198B;
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -496,7 +489,7 @@
   }
    .one2{
       opacity: 1;
-      box-shadow: 0px 0px 15px #be14f1;
+      box-shadow: 0px 0px 15px #6c757d;
       background-color: black;
   }
   .li-icon{
@@ -504,12 +497,12 @@
     border-radius: 10px;
     align-items: center;
     width: 40%;
-    box-shadow: 0px 0px 15px #70057c;
+    box-shadow: 0px 0px 15px #02198B;
     height: 100px;
   }
   .li-icon>i{
     font-size: 65px;
-    color: #bc30c9;
+    color: #02198B;
     padding: 10px;
   }
   .ul-icon .li-icon:nth-child(2) i{
@@ -529,21 +522,21 @@
     flex-wrap: wrap;
   }
   .h3-title{
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     border-radius: 50%;
-    border-bottom: 2px solid #70057c;
+    border-bottom: 2px solid #02198B;
     width: 250px;
     margin: 30px auto;
     text-align: center;
   }
   .a-bishtar-bekhanid{
     text-align: center;
-    color: #93399d !important;
+    color: #02198B !important;
     border-radius: 5px;
     padding: 2px;
     width: 150px;
     font-size: 15px;
-    border: 2px solid #93399d;
+    border: 2px solid #02198B;
   }
   .new-slider{
     overflow: hidden;
@@ -569,4 +562,107 @@
    }
   .li-amozesh:hover .i-for-amozesh{
       bottom: 50px;
+  }
+  .div-login-grandpa{
+    height:40em ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #02198B;
+  }
+  .div-login-pedar{
+
+    position: relative;
+    width: 700px;
+    height: 350px;
+  }
+  .div-login-pesar{   
+    border-radius: 2px;
+     z-index: -100;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.829);
+  }
+  .div-sign-up{  
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-color: #02198B;
+  }
+
+  .div-sign-in{  
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    background-color: #4e4e4e;
+  }
+  .btn-sign
+  { 
+    padding: 5px;
+    width: 60px;
+    border: none;
+    font-family: iransans;
+    border-radius: 4px;
+  }
+  .sabt-nam{
+    z-index: 1;
+    transition: all .4s linear;
+    top: -3em;
+    position: absolute;
+    height: 450px;
+    width: 50%;
+    left: 0px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(136, 133, 133);
+    border-radius: 4px;
+     display: flex;
+    align-items: center;
+  }
+  .foem-1{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .input-sabtnam::placeholder{
+    font-size: 11px;
+  }
+  .input-sabtnam{
+    padding: 5px;
+    font-family: iransans;
+    outline: none;
+    margin: 15px auto;
+    width:80%;
+    height: 35px;
+  }
+  .btn-form-signin{
+    width: 80px;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    margin-right:2.6em;
+    margin-top: 1em;
+    background-color: #02198B;
+    color: white;
+  }
+  .label-form-signin{
+    margin-right:2em;
+  }
+  .link-form-signin{
+    margin: 2em;
+    font-size: 13px;
+    color: black;
+  }
+  .link-form-signin:hover{
+    color: #02198B;
   }

@@ -1,7 +1,7 @@
 $(document).ready(function () {
   setInterval(function () {
     $(".h3-1").css({
-      boxShadow: "0 0 10px #93399D",
+      boxShadow: "0 0 10px #02198B",
     });
   }, 500);
   setInterval(function () {
@@ -66,7 +66,7 @@ color:'white'
     })
   $('.dire').css(
     {
-     left:'85%'
+     left:'85.2%'
     }
   )
   $(this).find('.icon9').css({
